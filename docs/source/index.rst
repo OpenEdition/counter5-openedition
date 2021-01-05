@@ -9,7 +9,7 @@ Documentation du service Counter 5 d'OpenEdition
           Cliquez sur le menu "Read the Docs" en bas à gauche pour accéder aux différentes versions.
 
           *This documentation is available in French end English.  
-          Expand the "Read the Docs" panel at the bottom of the sidebar to see the diffrent versions.*
+          Expand the "Read the Docs" panel at the bottom of the sidebar to see the different versions.*
 
 
 Cette application permet aux institutions et aux consortia abonnés à *OpenEdition Freemium for Journals* ou à *OpenEdition Freemium for Books* de consulter leurs statistiques d'usage de la platforme OpenEdition au format Counter 5.
