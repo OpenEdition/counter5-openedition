@@ -37,7 +37,7 @@ API Sushi
 Rapports disponibles
 ==================================================================
 
-Les tableaux suivants présentent les différents rapports disponibles. Chaque Rapport est proposé sous la forme d'un *Master Report*, paramétrable, et de *Standard Views* pour lesquelles les Metric Types, les filtres et les attributs sont présélectionnés.
+Les différents rapports disponibles sont présentés ci-dessous. Chaque Rapport est proposé sous la forme d'un *Master Report*, paramétrable, et de *Standard Views* pour lesquelles les Metric Types, les filtres et les attributs sont présélectionnés.
 
 Les *Metric Types* sont les différentes mesures d'usage définies par Counter. Vous trouverez plus bas une description de chacune.
 
@@ -338,7 +338,7 @@ Les mesures *Total_Item_Investigations* et *Total_Item_Requests* comptabilisent 
 Unique_Item_Investigations et Unique_Item_Requests
 ------------------------------------------------------------------
 
-Les mesures"*Unique_Item_Investigations* et *Unique_Item_Requests* comptabilisent le nombre d’éléments de contenu (chapitres, articles, etc.) ayant fait l’objet d’une *Request* ou d'une *Investigation* pris en compte une seule fois par :ref:`session utilisateur <user-session>`.
+Les mesures "*Unique_Item_Investigations* et *Unique_Item_Requests* comptabilisent le nombre d’éléments de contenu (chapitres, articles, etc.) ayant fait l’objet d’une *Request* ou d'une *Investigation* pris en compte une seule fois par :ref:`session utilisateur <user-session>`.
 
 Unique_Title_Investigations et Unique_Title_Requests
 ------------------------------------------------------------------
@@ -380,7 +380,7 @@ Searches_Platform
 
 Recherches effectuées par les utilisateurs et disponible au niveau Platform uniquement.
 
-Sur OpenEdition, cela correspond aus recherches effectuées : 
+Sur OpenEdition, cela correspond aux recherches effectuées : 
 
 * sur OpenEdition Search (https://search.openedition.org) ;
 * dans le catalogue des revues (https://www.openedition.org/catalogue-journals) ;
@@ -398,8 +398,8 @@ Counter 5 et contenus Freemium
 
 Les revues et les livres publiés en *Open Access Freemium* sont disponibles en libre accès au format HTML et en accès retreint pour les formats PDF et ePub. De ce fait, et suivant les recommandations du *Technical Advisory Group Counter* :
 
-* Les requêtes sur le contenu HTML sont comptabilisées avec un Access_Type="OA_Gold".
-* Les requêtes sur le contenu PDF et ePub sont comptabilisées avec un Access_type="Controlled".
+* Les requêtes sur le contenu HTML sont comptabilisées avec un Access_Type=\"OA_Gold\".
+* Les requêtes sur le contenu PDF et ePub sont comptabilisées avec un Access_type=\"Controlled\".
 
 Une instition abonnée pourra donc observer dans ses rapports Counter 5, pour une même revue, des consultations ayant pour *Access_Type* "OA_Gold" (les consultations aux versions HTML) ET des consultations ayant pour *Access_Type* "Controlled" (les consultations aux versions PDF et ePub).
  
@@ -421,10 +421,11 @@ Ce service traite d'importants volumes de données et peut de ce fait nécessite
 
 Si le temps de calcul d'un rapport dépasse la limite définie par Counter 5 (120 sec.), l'application renverra un avertissement vous invitant à ré-exécuter votre requête. Dans ce cas, le calcul du rapport continue en arrière plan et lorsque vous ré-exécuterez la demande après quelques minutes, l'application disposera du rapport pré-calculé et pourra vous le renvoyer. 
 
-Ce comportement s'applique également à Sushi qui renverra l'exception 1011 définie par Counter 5 : https://www.projectcounter.org/appendix-f-handling-errors-exceptions/
+Ce comportement s'applique également à Sushi qui renverra l'exception 1011 définie par Counter 5 |_| : https://www.projectcounter.org/appendix-f-handling-errors-exceptions/
 
 Le temps de génération dépend de la complexité et la taille du rapport demandé, notamment l'utilisation simultanée de plusieurs attributs, l'utilisation de plage temporelles de plusieurs mois, les rapports pour les consortia.
 
 Pour faciliter l'utilisation de l'application, les rapports des derniers mois (4 derniers mois environ) sont pré-caclulés (en mémoire cache). Le temps de reponse est de ce fait beaucoup amélioré pour les mois récents. Pour les rapports plus anciens, il faut faire preuve de patience.
 
-
+.. |_| unicode:: 0xA0 
+   :trim:
