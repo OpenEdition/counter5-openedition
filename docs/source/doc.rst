@@ -7,11 +7,11 @@ Service Counter 5
 * URL : https://counter5.openedition.org
 * Identifiants Institution : 
 
-  * nom d'utilisateur et mot de passe identiques à vos identifiants de l'espace Freemium : https://freemium.openedition.org/library
+  * nom d'utilisateur et mot de passe identiques à vos identifiants de l'espace Freemium |_| : https://freemium.openedition.org/library
 
 * Identifiants Consortium :
 
-  * Demandez vos identifiants par email à l'adresse : assistance-abonnes@openedition.org
+  * Demandez vos identifiants par email à l'adresse |_| : assistance-abonnes@openedition.org
 
 API Sushi
 ------------------------------------------------------------------
@@ -20,8 +20,8 @@ API Sushi
 * URL documentation : https://counter5.openedition.org/api/doc
 * Identifiants Institution :
 
-  * Nom d'utilisateur (``requestor_id``) : identique à votre nom d'utilisateur de l'espace Freemium : https://freemium.openedition.org/library
-  * Clé d'authentification (``api_key``) : vous pouvez obtenir et régénerer votre clé dans l'`espace Freemium <https://freemium.openedition.org/library>`_ : 
+  * Nom d'utilisateur (``requestor_id``) : identique à votre nom d'utilisateur de l'espace Freemium |_| : https://freemium.openedition.org/library
+  * Clé d'authentification (``api_key``) : vous pouvez obtenir et régénerer votre clé dans l'`espace Freemium <https://freemium.openedition.org/library>`_ |_| : 
 
     * *Menu API* > *Clé d'authentification*. 
     * Si elle n'est pas générée ou si vous souhaitez la modifier, cliquez sur `Générer une nouvelle clé`.
@@ -30,7 +30,7 @@ API Sushi
 
 * Identifiants Consortium :
 
-  * Demandez vos identifiants par email à l'adresse : assistance-abonnes@openedition.org
+  * Demandez vos identifiants par email à l'adresse |_| : assistance-abonnes@openedition.org
 
 
 
@@ -350,7 +350,7 @@ Les mesures *Unique_Title_Investigations* et *Unique_Title_Requests* ne sont app
 Session utilisateur
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Utilisée dans le calcul des mesures *Unique_**, la session d'un utilisateur est définie par 3 critères :
+Utilisée dans le calcul des mesures *Unique_**, la session d'un utilisateur est définie par 3 critères |_| :
 
 * l'adresse IP de l'utilisateur ;
 * le *user-agent* de l'utilisateur ;
@@ -362,11 +362,11 @@ Elle a une durée d'une heure.
 No_License
 ------------------------------------------------------------------
 
-Comptabilise les accès refusés à une ressource en accès reservé. Sur OpenEdition, il peut s'agir :
+Comptabilise les accès refusés à une ressource en accès reservé. Sur OpenEdition, il peut s'agir |_| :
 
-* d'articles de revues sous barrière mobile ;
-* d'articles ou de numéros de revues au format PDF ou ePub pour les revues du bouquet Open Access Freemium, pour les institutions non abonnées ;
-* de livres ou de chapitre de livres en accès exclusifs, non acquis par l'institution ;
+* d'articles de revues sous barrière mobile |_| ;
+* d'articles ou de numéros de revues au format PDF ou ePub pour les revues du bouquet Open Access Freemium, pour les institutions non abonnées |_| ;
+* de livres ou de chapitre de livres en accès exclusifs, non acquis par l'institution |_| ;
 * de livres ou de chapitre de livres au format PDF ou ePub en accès exclusifs ou Open Access Freemium, non acquis par l'institution.
 
 
@@ -380,26 +380,26 @@ Searches_Platform
 
 Recherches effectuées par les utilisateurs et disponible au niveau Platform uniquement.
 
-Sur OpenEdition, cela correspond aux recherches effectuées : 
+Sur OpenEdition, cela correspond aux recherches effectuées |_| : 
 
-* sur OpenEdition Search (https://search.openedition.org) ;
-* dans le catalogue des revues (https://www.openedition.org/catalogue-journals) ;
-* dans le catalogue des livres (https://books.openedition.org/catalogue) ; 
+* sur OpenEdition Search (https://search.openedition.org) |_| ;
+* dans le catalogue des revues (https://www.openedition.org/catalogue-journals) |_| ;
+* dans le catalogue des livres (https://books.openedition.org/catalogue) |_| ; 
 * dans un livre particulier (ex. https://books.openedition.org/oep/8713?query=archive).
 
 API Sushi
 ==================================================================
 
-La documentation de l'API Sushi est disponible à cette adresse : https://counter5.openedition.org/api/doc.
+La documentation de l'API Sushi est disponible à cette adresse |_| : https://counter5.openedition.org/api/doc.
 
 
 Counter 5 et contenus Freemium
 ==================================================================
 
-Les revues et les livres publiés en *Open Access Freemium* sont disponibles en libre accès au format HTML et en accès retreint pour les formats PDF et ePub. De ce fait, et suivant les recommandations du *Technical Advisory Group Counter* :
+Les revues et les livres publiés en *Open Access Freemium* sont disponibles en libre accès au format HTML et en accès retreint pour les formats PDF et ePub. De ce fait, et suivant les recommandations du *Technical Advisory Group Counter* |_| :
 
-* Les requêtes sur le contenu HTML sont comptabilisées avec un Access_Type=\"OA_Gold\".
-* Les requêtes sur le contenu PDF et ePub sont comptabilisées avec un Access_type=\"Controlled\".
+* Les requêtes sur le contenu HTML sont comptabilisées avec un Access_Type='OA_Gold'.
+* Les requêtes sur le contenu PDF et ePub sont comptabilisées avec un Access_type='Controlled'.
 
 Une instition abonnée pourra donc observer dans ses rapports Counter 5, pour une même revue, des consultations ayant pour *Access_Type* "OA_Gold" (les consultations aux versions HTML) ET des consultations ayant pour *Access_Type* "Controlled" (les consultations aux versions PDF et ePub).
  

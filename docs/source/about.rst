@@ -22,4 +22,4 @@ Besoin d'aide ?
 ==================================================================
 
 * Pour les quesions relatives à vos identifiants d'accès : assistance-abonnes@openedition.org
-* Pour les autres questions sur le service Counter 5 : counter5@openedition.org
+* Pour les autres questions sur le service Counter 5 : counter@openedition.org
