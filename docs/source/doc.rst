@@ -354,9 +354,9 @@ Utilisée dans le calcul des mesures *Unique_**, la session d'un utilisateur est
 
 * l'adresse IP de l'utilisateur ;
 * le *user-agent* de l'utilisateur ;
-* l'heure de la consultation.
+* la date + l'heure de la consultation (comprise entre 0 et 23 ; on ne considère pas les minutes et secondes)
 
-Elle a une durée d'une heure.
+Il s'agit d'une approximation de session. En effet, OpenEdition n'enregistre pas les sessions utilisateurs des lecteurs. Cette méthode est valide selon le Code de pratique Counter 5 : `7.3 Counting Unique Items <https://www.projectcounter.org/code-of-practice-five-sections/7-processing-rules-underlying-counter-reporting-data/#counting>`_.
 
 
 No_License
@@ -410,9 +410,9 @@ Date de disponibilité des rapports et temps de reponse
 Dates et durée de disponibilité des rapports
 ------------------------------------------------------------------
 
-* Les statistiques Counter 5 pour un mois donné sont disponibles à partir du 5 du mois suivant.
-* Les rapports sont disponibles pour une durée de 2 ans plus l'année courante. Ainsi, les rapports de janvier 2021 et de février 2021 seront disponibles jusqu'au 31/12/2023. 
 * Les rapports sont disponibles à compter du mois de juillet 2020.
+* Les rapports pour un mois donné sont disponibles à partir du 5 du mois suivant.
+* Les rapports sont disponibles pour une durée de 2 ans plus l'année courante. Ainsi, les rapports de janvier 2021 et de février 2021 seront disponibles jusqu'au 31/12/2023. Il sera impossible de régénérer les rapports une fois la période de disponibilité écoulée. Les données devront donc avoir été moissonnées préalablement.
 
 Temps de réponse et mise en cache
 ------------------------------------------------------------------
@@ -426,6 +426,12 @@ Ce comportement s'applique également à Sushi qui renverra l'exception 1011 dé
 Le temps de génération dépend de la complexité et la taille du rapport demandé, notamment l'utilisation simultanée de plusieurs attributs, l'utilisation de plage temporelles de plusieurs mois, les rapports pour les consortia.
 
 Pour faciliter l'utilisation de l'application, les rapports des derniers mois (4 derniers mois environ) sont pré-caclulés (en mémoire cache). Le temps de reponse est de ce fait beaucoup amélioré pour les mois récents. Pour les rapports plus anciens, il faut faire preuve de patience.
+
+Certification
+==================================================================
+
+Le premier audit de certification des statistiques Counter 5 est en cours (janvier 2021).
+
 
 .. |_| unicode:: 0xA0 
    :trim:

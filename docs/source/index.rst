@@ -14,11 +14,14 @@ Documentation du service Counter 5 d'OpenEdition
 
 Cette application permet aux institutions et aux consortia abonnés à *OpenEdition Freemium for Journals* ou à *OpenEdition Freemium for Books* de consulter leurs statistiques d'usage de la platforme OpenEdition au format Counter 5.
 
-La documentation complète Counter 5 est disponible à cette adresse : https://www.projectcounter.org/code-of-practice-five-sections/abstract/. 
+Le code des bonnes pratiques Counter 5 est disponible en anglais sur le site de Counter |_| : https://www.projectcounter.org/code-of-practice-five-sections/abstract/. 
 
-Les rapports proposés sont disponibles :
+Elle a été traduite en français dans sa version 5.0.1 par l’Inist-CNRS et le consortium Couperin.org |_| : https://www.projectcounter.org/telecharger-ici-le-code-de-bonnes-pratiques-counter_v5_fr_5-0-1-en-version-pdf/
+ 
 
-* sous forme de fichiers tsv, accessibles via le service https://counter5.openedition.org ;
+Les rapports proposés sont disponibles |_| :
+
+* sous forme de fichiers tsv, accessibles via le service https://counter5.openedition.org |_| ;
 * au format json accessibles via le protocole Sushi à l'adresse suivante : https://counter5.openedition.org/api. 
 
 
@@ -36,3 +39,5 @@ Les rapports proposés sont disponibles :
    about
  
 
+.. |_| unicode:: 0xA0 
+   :trim:
