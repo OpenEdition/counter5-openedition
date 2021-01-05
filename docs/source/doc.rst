@@ -338,7 +338,7 @@ Les mesures *Total_Item_Investigations* et *Total_Item_Requests* comptabilisent 
 Unique_Item_Investigations et Unique_Item_Requests
 ------------------------------------------------------------------
 
-Les mesures "*Unique_Item_Investigations* et *Unique_Item_Requests* comptabilisent le nombre d’éléments de contenu (chapitres, articles, etc.) ayant fait l’objet d’une *Request* ou d'une *Investigation* pris en compte une seule fois par :ref:`session utilisateur <user-session>`.
+Les mesures *Unique_Item_Investigations* et *Unique_Item_Requests* comptabilisent le nombre d’éléments de contenu (chapitres, articles, etc.) ayant fait l’objet d’une *Request* ou d'une *Investigation* pris en compte une seule fois par :ref:`session utilisateur <user-session>`.
 
 Unique_Title_Investigations et Unique_Title_Requests
 ------------------------------------------------------------------
