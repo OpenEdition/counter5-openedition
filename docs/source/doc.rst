@@ -326,7 +326,7 @@ La spécification Counter 5 distingue les consultations d'éléments de contenu 
 
 Une *Request* est un accès à un élement de contenu en texte intégral : un article en HTML ou en PDF, un numéro de revue complet en PDF, un chapitre de livre ou un livre complet, en  HTML, PDF ou ePub.
 
-Une *Investigation* est un accès à un élement de contenu en texte intégral OU a des informations présentant cet élément de contenu : les accès aux sommaires de numéros de revues ou de livres, les accès aux résumés des articles sous barrière mobile, les accès aux résumés des chapitres de livres en accès exclusif et tous les accès considérés comme *Investigations*. Notez que les accès de type *Requests* sont aussi comptabilisés dans les *Investigations*.
+Une *Investigation* est un accès à un élement de contenu en texte intégral OU a des informations présentant cet élément de contenu : les accès aux sommaires de numéros de revues ou de livres, les accès aux résumés des articles sous barrière mobile, les accès aux résumés des chapitres de livres en accès exclusif. Notez que les accès de type *Requests* sont aussi comptabilisés dans les *Investigations*.
 
 Vous pouvez consulter la description complète et illustrée formulée par Counter à l'adresse suivante : https://www.projectcounter.org/code-of-practice-five-sections/3-0-technical-specifications/#commonattributes.
 
