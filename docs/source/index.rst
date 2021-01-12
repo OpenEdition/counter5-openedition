@@ -2,9 +2,6 @@
 Documentation du service Counter 5 d'OpenEdition 
 ============================================================
 
-.. warning:: DRAFT VERSION !!!
-
-
 .. note:: Cette documentation est disponible en `français <https://counter5-openedition.readthedocs.io/fr/latest>`_ et en `anglais <https://counter5-openedition.readthedocs.io/en/latest>`_.
           Cliquez sur le menu "Read the Docs" en bas à gauche pour accéder aux différentes versions linguistiques.
 
