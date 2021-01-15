@@ -13,7 +13,7 @@ Cette application permet aux institutions et aux consortia abonnés à *OpenEdit
 
 Le code des bonnes pratiques Counter 5 est disponible en anglais sur le site de Counter |_| : https://www.projectcounter.org/code-of-practice-five-sections/abstract/. 
 
-Elle a été traduite en français dans sa version 5.0.1 par l’Inist-CNRS et le consortium Couperin.org |_| : https://www.projectcounter.org/telecharger-ici-le-code-de-bonnes-pratiques-counter_v5_fr_5-0-1-en-version-pdf/
+Ce code a été traduit en français dans sa version 5.0.1 par l’INIST-CNRS et le consortium Couperin.org |_| : https://www.projectcounter.org/telecharger-ici-le-code-de-bonnes-pratiques-counter_v5_fr_5-0-1-en-version-pdf/
  
 
 Les rapports proposés sont disponibles |_| :
