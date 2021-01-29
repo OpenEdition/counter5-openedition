@@ -19,7 +19,7 @@ Ce code a été traduit en français dans sa version 5.0.1 par l’INIST-CNRS et
 Les rapports proposés sont disponibles |_| :
 
 * sous forme de fichiers tsv, accessibles via le service https://counter5.openedition.org |_| ;
-* au format json accessibles via le protocole Sushi à l'adresse suivante : https://counter5.openedition.org/api. 
+* au format json accessibles via le protocole Sushi à l'adresse suivante : https://counter5.openedition.org/api/doc. 
 
 
 .. toctree::
