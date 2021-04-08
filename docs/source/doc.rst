@@ -430,7 +430,12 @@ Pour faciliter l'utilisation de l'application, les rapports des derniers mois (4
 Certification
 ==================================================================
 
-Le premier audit de certification des statistiques Counter 5 est en cours (janvier 2021).
+Le service Counter 5 d'OpenEdition a été certifié par un audit indépendant réalisé en avril 2021.
+
+.. image:: ../_static/counter-audit-logo-2021.jpg
+   :alt: Counter audit passed 2021
+   :target: https://www.projectcounter.org/counter-user/jeanfranccedil/
+
 
 
 .. |_| unicode:: 0xA0 

@@ -21,6 +21,11 @@ Les rapports proposés sont disponibles |_| :
 * sous forme de fichiers tsv, accessibles via le service https://counter5.openedition.org |_| ;
 * au format json accessibles via le protocole Sushi à l'adresse suivante : https://counter5.openedition.org/api. 
 
+Le service Counter 5 d'OpenEdition a été certifié par un audit indépendant réalisé en avril 2021.
+
+.. image:: ../_static/counter-audit-logo-2021.jpg
+   :alt: Counter audit passed 2021
+   :target: https://www.projectcounter.org/counter-user/jeanfranccedil/
 
 .. toctree::
    :maxdepth: 2 
