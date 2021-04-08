@@ -435,7 +435,7 @@ Le service Counter 5 d'OpenEdition a été certifié par un audit indépendant r
 .. image:: _static/counter-audit-logo-2021.jpg
    :alt: Counter audit passed 2021
    :target: https://www.projectcounter.org/counter-user/jeanfranccedil/
-
+   :width: 250
 
 
 .. |_| unicode:: 0xA0 
