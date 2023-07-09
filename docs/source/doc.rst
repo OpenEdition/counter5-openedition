@@ -373,7 +373,7 @@ Comptabilise les accès refusés à une ressource en accès reservé. Sur OpenEd
 Limit_Exceeded
 ------------------------------------------------------------------
 
-OpenEdition ne limite pas le nombre d'accès simultanés à une ressource. Le Metric_Type *Limit_Exceeded* ne renvoie donc aucun résultat.
+OpenEdition ne limite pas le nombre d'accès simultanés à une ressource. Le Metric_Type Limit_Exceeded ne renvoie donc aucun résultat.
 
 Searches_Platform
 ------------------------------------------------------------------
