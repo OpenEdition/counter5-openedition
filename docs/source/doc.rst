@@ -430,12 +430,13 @@ Pour faciliter l'utilisation de l'application, les rapports des derniers mois (4
 Certification
 ==================================================================
 
-Le service Counter 5 d'OpenEdition a été certifié par un audit indépendant réalisé en avril 2021.
+Le service Counter 5 d'OpenEdition est certifié régulièrement par un audit indépendant.
 
-.. image:: _static/counter-audit-logo-2021.jpg
-   :alt: Counter audit passed 2021
-   :target: https://www.projectcounter.org/counter-user/jeanfranccedil/
+.. image:: _static/counter-audit-logo.jpg
+   :alt: Counter audit passed 
+   :target: https://registry.projectcounter.org/platform/9fd59d9f-a669-4756-a4b0-1efeeaf14746
    :width: 250
+
 
 
 .. |_| unicode:: 0xA0 
