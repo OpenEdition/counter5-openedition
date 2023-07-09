@@ -15,7 +15,7 @@ Le service Counter 5 d'OpenEdition est certifié régulièrement par un audit in
 
 .. image:: _static/counter-audit-logo.jpg
    :alt: Counter audit passed 
-   :target: https://registry.projectcounter.org/usage-data-host/10b6c444-0a72-481c-ac59-124708eb9a47
+   :target: https://registry.projectcounter.org/platform/9fd59d9f-a669-4756-a4b0-1efeeaf14746
    :width: 250
 
 
