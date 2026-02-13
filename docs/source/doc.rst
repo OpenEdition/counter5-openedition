@@ -448,31 +448,31 @@ Tableau récupitualtif des Access_Type
 +------------------------------------------+-------------+-------------+
 |                                          | Counter 5.0 | Counter 5.1 |
 +==========================================+=============+=============+
-| Revue à barrière mobile                                              |
+| **Revue à barrière mobile**                                          |
 +------------------------------------------+-------------+-------------+
 | Articles sous la barrière mobile         | Controlled  | Controlled  |
 +------------------------------------------+-------------+-------------+
 | Articles hors barrière mobile            | Controlled  | Open        |
 +------------------------------------------+-------------+-------------+
-| Revue en Open Access                                                 |
+| **Revue en Open Access**                                             |
 +------------------------------------------+-------------+-------------+
 | Tous les articles                        | OA_Gold     | Open        |
 +------------------------------------------+-------------+-------------+
-| Revue en Open Access Freemium                                        |
+| **Revue en Open Access Freemium**                                    |
 +------------------------------------------+-------------+-------------+
 | Tous les articles au format HTML         | OA_Gold     | Controlled  |
 +------------------------------------------+-------------+-------------+
 | Tous les articles au format PDF ou ePub  | Controlled  | Controlled  |
 +------------------------------------------+-------------+-------------+
-| Livre en accès exclusif                                              |
+| **Livre en accès exclusif**                                          |
 +------------------------------------------+-------------+-------------+
 | Tous les chapitres, tous les formats     | OA_Gold     | Open        |
 +------------------------------------------+-------------+-------------+
-| Livre en Open Access                                                 |
+| **Livre en Open Access**                                             |
 +------------------------------------------+-------------+-------------+
 | Tous les chapitres, tous les formats     | Controlled  | Controlled  |
 +------------------------------------------+-------------+-------------+
-| Livre en Open Access Freemuim                                        |
+| **Livre en Open Access Freemuim**                                    |
 +------------------------------------------+-------------+-------------+
 | Tous les chapitres au format HTML        | OA_Gold     | Controlled  |
 +------------------------------------------+-------------+-------------+
