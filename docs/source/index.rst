@@ -11,23 +11,16 @@ Documentation du service Counter 5 d'OpenEdition
 
 Cette application permet aux institutions et aux consortia abonnés à *OpenEdition Freemium for Journals* ou à *OpenEdition Freemium for Books* de consulter leurs statistiques d'usage de la platforme OpenEdition au format Counter 5.
 
-Le service Counter 5 d'OpenEdition est certifié régulièrement par un audit indépendant.
+Le code des bonnes pratiques Counter 5 est disponible en anglais sur le site de Counter |_| : https://www.countermetrics.org/code-of-practice/.
 
-.. image:: _static/counter-audit-logo.jpg
-   :alt: Counter audit passed 
-   :target: https://registry.projectcounter.org/platform/9fd59d9f-a669-4756-a4b0-1efeeaf14746
-   :width: 250
-
-
-Le code des bonnes pratiques Counter 5 est disponible en anglais sur le site de Counter |_| : https://www.projectcounter.org/code-of-practice-five-sections/abstract/. 
-
-Ce code a été traduit en français dans sa version 5.0.1 par l’INIST-CNRS et le consortium Couperin.org |_| : https://www.projectcounter.org/telecharger-ici-le-code-de-bonnes-pratiques-counter_v5_fr_5-0-1-en-version-pdf/
- 
+Les statistiques sont disponibles au format Counter 5.0 jusqu'à 2024 et au format Counter 5.1 à partir de 2025. 
 
 Les rapports proposés sont disponibles |_| :
 
 * sous forme de fichiers tsv, accessibles via le service https://counter5.openedition.org |_| ;
 * au format json accessibles via le protocole Sushi à l'adresse suivante : https://counter5.openedition.org/api/doc. 
+
+OpenEdition est inscrit au registre de Counter Metrics : https://registry.countermetrics.org/platform/9fd59d9f-a669-4756-a4b0-1efeeaf14746
 
 
 .. toctree::

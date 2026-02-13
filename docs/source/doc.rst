@@ -33,9 +33,17 @@ API Sushi
   * Demandez vos identifiants par email à l'adresse |_| : assistance-abonnes@openedition.org
 
 
+* Routes API
+
+  * les rapports disponibles au format Counter 5.0 jusqu'à 2024 sont listées ici : https://counter5.openedition.org/api/reports
+  * les rapports disponibles au format Counter 5.1 à partir de 2025 sont listées ici: https://counter5.openedition.org/api/r51/reports
+
 
 Rapports disponibles
 ==================================================================
+
+
+.. note:: Les statistiques sont disponibles au format Counter 5.0 jusqu'à 2024 et au format Counter 5.1 à partir de 2025. 
 
 Les différents rapports disponibles sont présentés ci-dessous. Chaque rapport est proposé sous la forme d'un *Master Report*, paramétrable, et de *Standard Views* pour lesquelles les Metric Types, les filtres et les attributs sont présélectionnés.
 
@@ -75,7 +83,7 @@ Rapport personnalisable résumant l'activité sur l'ensemble de la plateforme. I
 
 * **Attributs disponibles** :
 
-  * Data_Type
+  * Data_Type (5.0 seulement. Au format 5.1, il est systématiquement appliqué)
   * Access_Method
 
 PR_P1 | Platform Usage
@@ -127,7 +135,7 @@ Rapport personnalisable détaillant l'activité pour chaque titre, c'est-à-dire
 * **Filtres disponibles** :
 
   * Data_Type
-  * Section_Type
+  * Section_Type (Counter 5.0 seulement)
   * YOP
   * Access_Type
   * Access_Method
@@ -135,7 +143,7 @@ Rapport personnalisable détaillant l'activité pour chaque titre, c'est-à-dire
 * **Attributs disponibles** :
 
   * Data_Type
-  * Section_Type
+  * Section_Type (Counter 5.0 seulement)
   * YOP
   * Access_Type
   * Access_Method
@@ -328,7 +336,7 @@ Une *Request* est un accès à un élement de contenu en texte intégral : un ar
 
 Une *Investigation* est un accès à un élement de contenu en texte intégral OU à des informations présentant cet élément de contenu : les accès aux sommaires de numéros de revues ou de livres, les accès aux résumés des articles sous barrière mobile, les accès aux résumés des chapitres de livres en accès exclusif. Notez que les accès de type *Requests* sont aussi comptabilisés dans les *Investigations*.
 
-Vous pouvez consulter la description complète et illustrée formulée par Counter à l'adresse suivante : https://www.projectcounter.org/code-of-practice-five-sections/3-0-technical-specifications/#commonattributes.
+Vous pouvez consulter la description complète et illustrée formulée par Counter à l'adresse suivante : https://cop5.countermetrics.org/en/5.1.0.1/03-specifications/03-counter-report-common-attributes-and-elements.html
 
 Total_Item_Investigations et Total_Item_Requests
 ------------------------------------------------------------------
@@ -345,6 +353,22 @@ Unique_Title_Investigations et Unique_Title_Requests
 
 Les mesures *Unique_Title_Investigations* et *Unique_Title_Requests* ne sont applicables que pour les livres. Elles comptabilisent le nombre d'accès uniques à un livre durant une :ref:`session utilisateur <user-session>`. Ainsi, les accès d'un lecteur à 3 chapitres d'un livre en texte intégral au cours d'une session ne seront comptabilisés qu'une fois dans la mesure *Unique_Title_Requests*.
 
+Item et Livres : Différences 5.0 / 5.1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Les Items sont comptabilisés différement pour le téléchargement d'un livre complet.
+
+Téléchargement en PDF ou ePub d'un livre de 10 chapitres
+
++----------------------+-------------+-------------+
+|                      | Counter 5.0 | Counter 5.1 |
++======================+=============+=============+
+| Total_Item_Requests  | 1           | 10          |
+| Unique_Item_Requests | 1           | 10          |
+| Unique_Title_Request | 1           | 1           |
++----------------------+-------------+-------------+
+
+
 .. _user-session:
 
 Session utilisateur
@@ -356,7 +380,7 @@ Utilisée dans le calcul des mesures *Unique_**, la session d'un utilisateur est
 * le *user-agent* de l'utilisateur ;
 * la date + l'heure de la consultation (comprise entre 0 et 23 ; on ne considère pas les minutes et secondes)
 
-Il s'agit d'une approximation de session. En effet, OpenEdition n'enregistre pas les sessions utilisateurs des lecteurs. Cette méthode est valide selon le Code de pratique Counter 5 : `7.3 Counting Unique Items <https://www.projectcounter.org/code-of-practice-five-sections/7-processing-rules-underlying-counter-reporting-data/#counting>`_.
+Il s'agit d'une approximation de session. En effet, OpenEdition n'enregistre pas les sessions utilisateurs des lecteurs. Cette méthode est valide selon le Code de pratique Counter 5 : `7.3 Counting Unique Items<https://cop5.countermetrics.org/en/5.1.0.1/07-processing/03-counting-unique-items.html>`_.
 
 
 No_License
@@ -385,7 +409,7 @@ Sur OpenEdition, cela correspond aux recherches effectuées |_| :
 * sur OpenEdition Search (https://search.openedition.org) |_| ;
 * dans le catalogue des revues (https://www.openedition.org/catalogue-journals) |_| ;
 * dans le catalogue des livres (https://books.openedition.org/catalogue) |_| ; 
-* dans un livre particulier (ex. https://books.openedition.org/oep/8713?query=archive).
+* dans un livre particulier (ex. https://books.openedition.org/oep/8713?q=archive).
 
 API Sushi
 ==================================================================
@@ -393,8 +417,13 @@ API Sushi
 La documentation de l'API Sushi est disponible à cette adresse |_| : https://counter5.openedition.org/api/doc.
 
 
-Counter 5 et contenus Freemium
+Counter 5 et Access_Type
 ==================================================================
+
+La notion d'Access_Type a évolué entre Counter 5.0 et Counter 5.1, en particulier pour la diffusion Freemium.
+
+Counter 5.0 Access_Type et diffusion Freemium
+------------------------------------------------------------------
 
 Les revues et les livres publiés en *Open Access Freemium* sont disponibles en libre accès au format HTML et en accès retreint pour les formats PDF et ePub. De ce fait, et suivant les recommandations du *Technical Advisory Group Counter* |_| :
 
@@ -403,6 +432,48 @@ Les revues et les livres publiés en *Open Access Freemium* sont disponibles en 
 
 Une instition abonnée pourra donc observer dans ses rapports Counter 5, pour une même revue, des consultations ayant pour *Access_Type* "OA_Gold" (les consultations aux versions HTML) ET des consultations ayant pour *Access_Type* "Controlled" (les consultations aux versions PDF et ePub).
  
+Counter 5.1 access_type et diffusion Freemium
+------------------------------------------------------------------
+
+Le code de bonnes pratiques COUNTER exige un seul Access_Type pour chaque élément (Item) et recommande d'utiliser le type d'accès le plus restrictif lorsque différentes parties de l'élément peuvent avoir des règles d'accès différentes. 
+
+Dans le cas de la diffusion en Open access Freemium, toutes les consultations sont donc qualifiées avec Access_Type = Controlled
+
+
+Tableau récupitualtif des Access_Type
+------------------------------------------------------------------
+
++------------------------------------------+-------------+-------------+
+|                                          | Counter 5.0 | Counter 5.1 |
++==========================================+=============+=============+
+| Revue à barrière mobile                  |             |             |
++==========================================+=============+=============+
+| Articles sous la barrière mobile         | Controlled  | Controlled  |
+| Articles hors barrière mobile            | Controlled  | Open        |
++==========================================+=============+=============+
+| Revue en Open Access                     |             |             |
++==========================================+=============+=============+
+| Tous les articles                        | OA_Gold     | Open        |
++==========================================+=============+=============+
+| Revue en Open Access Freemium            |             |             |
++==========================================+=============+=============+
+| Tous les articles au format HTML         | OA_Gold     | Controlled  |
+| Tous les articles au format PDF ou ePub  | Controlled  | Controlled  |
++==========================================+=============+=============+
+| Livre en accès exclusif                  |             |             |
++==========================================+=============+=============+
+| Tous les chapitres, tous les formats     | OA_Gold     | Open        |
++==========================================+=============+=============+
+| Livre en Open Access                     |             |             |
++==========================================+=============+=============+
+| Tous les chapitres, tous les formats     | Controlled  | Controlled  |
++==========================================+=============+=============+
+| Livre en Open Access Freemuim            |             |             |
++==========================================+=============+=============+
+| Tous les chapitres au format HTML        | OA_Gold     | Controlled  |
+| Tous les chapitres au format PDF ou ePub | Controlled  | Controlled  |
++------------------------------------------+-------------+-------------+
+
 
 Date de disponibilité des rapports et temps de reponse
 ==================================================================
@@ -410,33 +481,22 @@ Date de disponibilité des rapports et temps de reponse
 Dates et durée de disponibilité des rapports
 ------------------------------------------------------------------
 
-* Les rapports sont disponibles à compter du mois de juillet 2020.
 * Les rapports pour un mois donné sont disponibles à partir du 5 du mois suivant.
-* Les rapports sont disponibles pour une durée de 2 ans plus l'année courante. Ainsi, les rapports de janvier 2021 et de février 2021 seront disponibles jusqu'au 31/12/2023. Il sera impossible de régénérer les rapports une fois la période de disponibilité écoulée. Les données devront donc avoir été moissonnées préalablement.
+* Les rapports sont disponibles pour une durée de 2 ans plus l'année courante. Ainsi, les rapports de janvier 2024 et de février 2024 seront disponibles jusqu'au 31/12/2026. Il sera impossible de régénérer les rapports une fois la période de disponibilité écoulée. Les données devront donc avoir été moissonnées préalablement.
 
-Temps de réponse et mise en cache
-------------------------------------------------------------------
-
-Ce service traite d'importants volumes de données et peut de ce fait nécessiter des temps de calcul importants.
-
-Si le temps de calcul d'un rapport dépasse la limite définie par Counter 5 (120 sec.), l'application renverra un avertissement vous invitant à ré-exécuter votre requête. Dans ce cas, le calcul du rapport continue en arrière-plan et lorsque vous ré-exécuterez la demande après quelques minutes, l'application disposera du rapport pré-calculé et pourra vous le renvoyer. 
-
-Ce comportement s'applique également à Sushi qui renverra l'exception 1011 définie par Counter 5 |_| : https://www.projectcounter.org/appendix-f-handling-errors-exceptions/
-
-Le temps de génération dépend de la complexité et la taille du rapport demandé, notamment l'utilisation simultanée de plusieurs attributs, l'utilisation de plages temporelles de plusieurs mois, les rapports pour les consortia...
-
-Pour faciliter l'utilisation de l'application, les rapports des derniers mois (4 derniers mois environ) sont pré-caclulés et stockés en mémoire cache. Le temps de réponse est de ce fait beaucoup amélioré pour les mois récents. Pour les rapports plus anciens, il faut faire preuve de patience.
 
 Certification
 ==================================================================
 
-Le service Counter 5 d'OpenEdition est certifié régulièrement par un audit indépendant.
+Le service Counter 5 d'OpenEdition a été certifié pour Counter 5.0 par un audit indépendant en 2021.
 
 .. image:: _static/counter-audit-logo.jpg
    :alt: Counter audit passed 
    :target: https://registry.projectcounter.org/platform/9fd59d9f-a669-4756-a4b0-1efeeaf14746
    :width: 250
 
+
+La certification pour Counter 5.1 est prévue en 2026.
 
 
 .. |_| unicode:: 0xA0 
