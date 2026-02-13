@@ -382,7 +382,7 @@ Utilisée dans le calcul des mesures *Unique_**, la session d'un utilisateur est
 * le *user-agent* de l'utilisateur ;
 * la date + l'heure de la consultation (comprise entre 0 et 23 ; on ne considère pas les minutes et secondes)
 
-Il s'agit d'une approximation de session. En effet, OpenEdition n'enregistre pas les sessions utilisateurs des lecteurs. Cette méthode est valide selon le Code de pratique Counter 5 : `7.3 Counting Unique Items<https://cop5.countermetrics.org/en/5.1.0.1/07-processing/03-counting-unique-items.html>`_.
+Il s'agit d'une approximation de session. En effet, OpenEdition n'enregistre pas les sessions utilisateurs des lecteurs. Cette méthode est valide selon le Code de pratique Counter 5 : `7.3 Counting Unique Items <https://cop5.countermetrics.org/en/5.1.0.1/07-processing/03-counting-unique-items.html>`_.
 
 
 No_License
