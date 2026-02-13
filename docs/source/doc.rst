@@ -464,11 +464,11 @@ Tableau récupitualtif des Access_Type
 +------------------------------------------+-------------+-------------+
 | Tous les articles au format PDF ou ePub  | Controlled  | Controlled  |
 +------------------------------------------+-------------+-------------+
-| **Livre en accès exclusif**                                          |
+| **Livre en Open Access**                                             |
 +------------------------------------------+-------------+-------------+
 | Tous les chapitres, tous les formats     | OA_Gold     | Open        |
 +------------------------------------------+-------------+-------------+
-| **Livre en Open Access**                                             |
+| **Livre en accès exclusif**                                          |
 +------------------------------------------+-------------+-------------+
 | Tous les chapitres, tous les formats     | Controlled  | Controlled  |
 +------------------------------------------+-------------+-------------+
