@@ -358,10 +358,10 @@ Item et Livres : Différences 5.0 / 5.1
 
 Les Items sont comptabilisés différement pour le téléchargement d'un livre complet.
 
-Téléchargement en PDF ou ePub d'un livre de 10 chapitres
+**Téléchargement en PDF ou ePub d'un livre de 10 chapitres**
 
 +----------------------+-------------+-------------+
-|                      | Counter 5.0 | Counter 5.1 |
+| Mertic               | Counter 5.0 | Counter 5.1 |
 +======================+=============+=============+
 | Total_Item_Requests  | 1           | 10          |
 +----------------------+-------------+-------------+
