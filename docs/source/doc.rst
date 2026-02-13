@@ -480,11 +480,9 @@ Tableau récupitualtif des Access_Type
 +------------------------------------------+-------------+-------------+
 
 
-Date de disponibilité des rapports et temps de reponse
-==================================================================
 
 Dates et durée de disponibilité des rapports
-------------------------------------------------------------------
+==================================================================
 
 * Les rapports pour un mois donné sont disponibles à partir du 5 du mois suivant.
 * Les rapports sont disponibles pour une durée de 2 ans plus l'année courante. Ainsi, les rapports de janvier 2024 et de février 2024 seront disponibles jusqu'au 31/12/2026. Il sera impossible de régénérer les rapports une fois la période de disponibilité écoulée. Les données devront donc avoir été moissonnées préalablement.
@@ -493,7 +491,7 @@ Dates et durée de disponibilité des rapports
 Certification
 ==================================================================
 
-Le service Counter 5 d'OpenEdition a été certifié pour Counter 5.0 par un audit indépendant en 2021.
+Le service Counter 5 d'OpenEdition a été **certifié pour Counter 5.0** par un audit indépendant en 2021.
 
 .. image:: _static/counter-audit-logo.jpg
    :alt: Counter audit passed 
@@ -501,7 +499,7 @@ Le service Counter 5 d'OpenEdition a été certifié pour Counter 5.0 par un aud
    :width: 250
 
 
-La certification pour Counter 5.1 est prévue en 2026.
+**La certification pour Counter 5.1 est prévue en 2026.**
 
 
 .. |_| unicode:: 0xA0 
