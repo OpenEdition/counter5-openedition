@@ -491,15 +491,9 @@ Dates et durée de disponibilité des rapports
 Certification
 ==================================================================
 
-Le service Counter 5 d'OpenEdition a été **certifié pour Counter 5.0** par un audit indépendant en 2021.
-
-.. image:: _static/counter-audit-logo.jpg
-   :alt: Counter audit passed 
-   :target: https://registry.projectcounter.org/platform/9fd59d9f-a669-4756-a4b0-1efeeaf14746
-   :width: 250
-
-
-**La certification pour Counter 5.1 est prévue en 2026.**
+* Le service Counter 5 d'OpenEdition a été **certifié pour Counter 5.0** par un audit indépendant en 2021.
+* **La certification pour Counter 5.1 est prévue en 2026.**
+* https://registry.projectcounter.org/platform/9fd59d9f-a669-4756-a4b0-1efeeaf14746
 
 
 .. |_| unicode:: 0xA0 
