@@ -354,7 +354,7 @@ Unique_Title_Investigations et Unique_Title_Requests
 Les mesures *Unique_Title_Investigations* et *Unique_Title_Requests* ne sont applicables que pour les livres. Elles comptabilisent le nombre d'accès uniques à un livre durant une :ref:`session utilisateur <user-session>`. Ainsi, les accès d'un lecteur à 3 chapitres d'un livre en texte intégral au cours d'une session ne seront comptabilisés qu'une fois dans la mesure *Unique_Title_Requests*.
 
 Item et Livres : Différences 5.0 / 5.1
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------
 
 Les Items sont comptabilisés différement pour le téléchargement d'un livre complet.
 
