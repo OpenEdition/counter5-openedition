@@ -374,7 +374,7 @@ Les Items sont comptabilisés différement pour le téléchargement d'un livre c
 .. _user-session:
 
 Session utilisateur
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+------------------------------------------------------------------
 
 Utilisée dans le calcul des mesures *Unique_**, la session d'un utilisateur est définie par 3 critères |_| :
 
