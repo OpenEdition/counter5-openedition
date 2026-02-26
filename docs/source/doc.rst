@@ -370,6 +370,8 @@ Les Items sont comptabilisés différement pour le téléchargement d'un livre c
 | Unique_Title_Request | 1           | 1           |
 +----------------------+-------------+-------------+
 
+.. note:: Comme précisé dans `les spécifications Counter <https://cop5.countermetrics.org/en/5.1.0.1/appendices/b-changes-from-r5.html#primary-changes-between-r5-and-r5-1>`_,cette particularité s'applique uniquement aux livres. Elle ne s'applique pas au téléchargement de numéros complets de revues. 
+
 
 .. _user-session:
 
